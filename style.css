@@ -46,6 +46,7 @@ h2 {
   font-size: 18px;
   color:lightblue;
   text-align: center;
+  text-decoration: underline;
  }
 
 .caption {
@@ -310,7 +311,7 @@ tr:hover {
   width: 1200px;
 }
 
-.contrast-gap {
+.contrst-gap {
   background-color: black;
   color: white;
   display: flex;
