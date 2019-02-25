@@ -33,13 +33,13 @@ h2 {
   height: auto;
 }
 
-.intro-basic #responsive-circle{
+#about-img {
   display: flex;
   margin: 0 auto;
   padding: 20px;
   border-radius: 130px;
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
 }
 
 #intro-para {
@@ -207,21 +207,21 @@ tr:hover {
   margin: 10px;
 }
 
-.video-text ul li{
+.video-text ol li{
   font-size: 20px;
 }
-.video-text ul li:hover {
-  font-size: 1.2em;
+.video-text ol li:hover {
+  font-size: 1em;
   transition: 0.6s ease;
   display: flex;
   font-size: 40px;
+  color: black;
 }
-
-
 
 .article {
   font-size: 15px;
   text-align: center;
+
 }
 
 .article p {
