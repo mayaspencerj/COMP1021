@@ -4,13 +4,10 @@ body { padding-bottom: 70px; }
     background-color: pink;
 }
 
-
 video {
   height: 50%;
   width: 50%;
 }
-
-
 
 #map {
   height: 400px;
@@ -129,7 +126,14 @@ height:100%;
 width:100%;
 position:absolute;
 }
+.table {
+  margin-left: 50px;
+  width: 90%;
+  table-layout: auto;
 
+}
+
+.table tr:hover {background-color: lightblue;}
 
 /*///////////////////////stats//////////////////////////////////////////*/
 .row:after {
