@@ -1,65 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="myweb.appcache">
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Maya Spencer-Jacobs">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Girls can code </title>
-  <link href="style.css" type="text/css" rel="stylesheet"/>
+  <title>COMP1021</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <link media="print" href="css/print.css" type="text/css" rel="stylesheet"/>
 </head>
-
 <body>
 
-  <div class="bgimg-1">
-    <div class="caption">
-      <span class="border">THE FACTS: </span>
-      <span class="border">THE STATS </span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-pink">
+    <a class="navbar-brand" href="#"> Girls Can Code, (Maya SJ, 2019) </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stats.html">The Statistics <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact-us.html">Contact Us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="solutions.html">The Solution </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            The Problems
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="models.html">Role Models</a>
+            <a class="dropdown-item" href="pinkify.html">Pinkify-ing</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-2">The Statistics </h1>
+      <p>Lets uncover some statistics to analyse the problem</p>
     </div>
   </div>
 
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="stats.html"><em> The Facts</em></a>
-    <div class="dropdown">
-      <button class="dropbtn">The Problems</button>
-      <div class="dropdown-content">
-        <a href="problem-1.html">Problem 1</a>
-        <a href="problem-2.html">Problem 2</a>
+  <div class="row">
+      <div class="column side">
+        <h2>Only 5.8% of developers in 2016 were female</h2>
+        <p><a href="https://insights.stackoverflow.com/survey/2016#profile">(Source:Stack Overflow, 2016 )</a></p>
+        <p>The figure took data from 56,033 coders in 173 countries. Only 5.8% of those code developers, were women, with 92.8% being men.</p>
+        <img src="images/stackoverflow.png" alt="Female Developer Statistics" class="zoom">
+      </div>
+
+      <div class="column middle" id="middle">
+        <h2>This must change</h2>
+        <p>In the US, only 18% of all computer and information sciences undergraduate degrees are taken by women <span class="text-muted"><a href="https://www.ncwit.org/sites/default/files/resources/girlsinit_report2012_final.pdf"> (Source:US Department of Education, page 16) </a></span></p>
+          <p>Why so few? Click here for an analysis of the data. <button onclick="myFunction()" id="myBtn">Read more</button></p>
+          <span id="dots"></span>
+          <span id="more">
+            <p>
+              The figure below shows an explanation of the number of female percentage of stem undergraduate degree recipients. Specifically, we will examine how the number of females who took computer and information science changed.
+              Between 1970 - 1986, the percentage rose for 15% to 35%, before dropping to 28% by 1996.
+              Then we see a rise again to 33% by 2001, before witnessing a sharp decline by 2006 to 15%. The number of recipients has remained stable at 15% through to 2011.
+            </p>
+          </span>
+          <img src="images/stemdegree.png" alt="Which degrees women take in the US" class="zoom">
+      </div>
+
+      <div class="column side">
+        <h2>In the UK, the results are similarly staggering</h2>
+        <p>This figure shows that the percentage of women graduating in computer science related degrees has fallen 1% from 2015 to 2017.</p>
+        <img src="images/compdegree.png" alt="Which degrees women take in the UK" class="zoom">
       </div>
     </div>
 
-    <a href="solutions.html">The Solution</a>
-    <a href="contact.html">Contact us</a>
+  <div class="navbar fixed-bottom">
+    <p> Maya Spencer-Jacobs, 2019</p>
+        <button onclick="access_mode()" id="shown" type="button" class="btn btn-light">Hide Images </button>
+
   </div>
 
-  <div class="contrast-gap">
-    <h2><em>Only 5.8% of developers in 2016 were female </em> <a href="https://insights.stackoverflow.com/survey/2016#profile">(Source:Stack Overflow, 2016 )</a></h2>
-  </div>
 
-  <div class="content-fill">
-    <img src="stackoverflow.png" alt="Female Developer Statistics"/>
-  </div>
-
-  <div class="contrast-gap">
-    <h2>In the US, only 18% of all computer and information sciences undergraduate degrees are taken by women <a href="https://www.ncwit.org/sites/default/files/resources/girlsinit_report2012_final.pdf"> (Source:US Department of Education, page 16) </a></h2>
-  </div>
-
-  <div class="content-fill">
-    <img src="stemdegree.png" alt="Which degrees women take in the US"/>
-  </div>
-
-  <div class="contrast-gap">
-    <h2>In the UK, the statistics are similarly staggering <a href="https://www.stemwomen.co.uk/blog/2018/03/useful-statistics-women-in-stem"> (Source:Wise Campaign, 2018) </a></h2>
-  </div>
-
-  <div class="content-fill">
-  <img src="compdegree.png" alt="Which degrees women take in the UK"/>
-  </div>
-
-  <div class="contrast-gap">
-    <h2><a href="problem-1.html"> Luckily, we are devising solutions. Click here to find out more </a></h2>
-  </div>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
-
 </html>

@@ -1,61 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="myweb.appcache">
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Maya Spencer-Jacobs">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title> Girls can code </title>
+  <title>COMP1021</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="style.css" type="text/css" rel="stylesheet"/>
+  <link media="screen" href="css/style.css" type="text/css" rel="stylesheet"/>
+  <link media="print" href="css/print.css" type="text/css" rel="stylesheet"/>
 </head>
-
-
 <body>
-  <div class="bgimg-1">
-    <div class="caption">
-      <span class="border">GIRLS CAN CODE</span><br>
-      <span class="border">BY MAYA SPENCER-JACOBS </span>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-pink">
+    <a class="navbar-brand" href="#"> Girls Can Code, (Maya SJ, 2019) </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><b> Home </b> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stats.html">The Statistics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact-us.html">Contact Us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="solutions_table.html">The Solution </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            The Problems
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="models.html">Role Models</a>
+            <a class="dropdown-item" href="pinkify.html">Pinkify-ing</a>
+          </div>
+        </li>
+      </ul>
+  </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-3">COMP1021 CW2</h1>
+      <p> By Maya Spencer-Jacobs</p>
+      
+      <video autoplay loop poster="images/codingvid.mov" id="videoID">
     </div>
   </div>
 
-  <div class="navbar">
-    <a href="index.html"><em>Home</em></a>
-    <a href="stats.html">The Facts</a>
-    <div class="dropdown">
-      <button class="dropbtn">The Problem </button>
-      <div class="dropdown-content">
-        <a href="problem-1.html">Problem 1</a>
-        <a href="problem-2.html">Problem 2</a>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>About Me</h3>
+        <p>  My name is Maya. I have created this website for my Computer Science module (COMP1021) </p>
+        <p> It aims to encourage women to pursue Computer Science as a career path and help reduce the gender gap in computer science. </p>
+        <p> This website was important to me to create, having been the only female in my A-Level Computer Science class, which as a result deterred me from continuing to pursue the subject at University, with the fear of again being one of the only females and having to study in an uncomfortable environment again. As a result, I am studying economics.</p>
+        <p> However I have realised that we shouldn't be influenced by our surroundings, and should pursue what we enjoy </p>
+        <p> Lets get more females into Computer Science, and prove that <em> Girls can code</em>.</p>
+        <img src="images/presenting.jpg" alt="Photo of author" class="zoom" id="responsive">
       </div>
-    </div>
-    <a href="solutions.html">The Solution</a>
-    <a href="contact.html">Contact us</a>
+
+      <div class="col-sm-6">
+        <div class="twittertl">
+          <a class="twitter-timeline" data-width="600" data-height="500" data-theme="light" data-link-color="#31b3a4" href="https://twitter.com/GirlsWhoCode">Tweets by GirlsWhoCode </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
   </div>
 
-  <div class="intro-basic">
-    <h2><em>What do we need to get women involved in coding?</em></h2>
-    <ul>
-      <li>Role Models</li>
-      <li>Diversity</li>
-      <li> Passion </li>
-      <li> Motivation</li>
-    </ul>
+  <div class="navbar fixed-bottom">
+    <p> Maya Spencer-Jacobs, 2019</p>
+        <button onclick="access_mode()" id="shown" type="button" class="btn btn-light">Hide Images </button>
+
   </div>
 
-  <img src="womenideas.png" alt="Women holding Lightbulbs" id="responsive"/>
-
-  <div class="intro-basic">
-    <h2><em>About Me</em></h2>
-    <p id="intro-para">
-      My name is Maya. I have created this website for my Computer Science module (COMP1021). <br> It aims to encourage women to pursue Computer Science as a career path and help reduce the gender gap in computer science. <br> This website was important to me to create, having been the only female in my A-Level Computer Science class, which as a result deterred me from continuing to pursue the subject at University, <br> with the fear of again being one of the only females and having to study in an uncomfortable environment again. As a result, I am studying economics. <br> However I have realised that we shouldn't be influenced by our surroundings, and should pursue what we enjoy. <br> Lets get more females into Computer Science, and prove that <em> Girls can code</em>.
-    </p>
-    <img src="presenting.jpg" alt="Photo of author" id="about-img"/>
-  </div>
-
+  <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
-
-
 </html>

@@ -1,0 +1,245 @@
+body { padding-bottom: 70px; }
+
+.navbar {
+    background-color: pink;
+}
+
+
+video {
+  height: 50%;
+  width: 50%;
+}
+
+
+
+#map {
+  height: 400px;
+  text-align: center;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#responsive {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 150px;
+  width: 50%;
+  height: 50%;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+.text:hover {
+    opacity:1;
+}
+.fullpage {
+    background-color: grey;
+    height: 86vh;
+    width: 100vw;
+}
+.halfheight{
+    height: 50%;
+}
+/*///////////////////////IMAGES////////////////////////////////////////*/
+.img1 {
+    background-image: url('images/ssandberg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img2 {
+    background-image: url('images/alovelace.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img3 {
+    background-image: url('images/gtrap.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img4 {
+    background-image: url('images/kjones.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+#img5 {
+    background-image: url('images/grometty.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img6 {
+    background-image: url('images/agoldberg.png');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img7 {
+    background-image: url('images/eniac.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img8 {
+    background-image: url('images/ghopper.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+.mobileheight {
+    position: relative;
+}
+
+.authorheader {
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.navbar-brand {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+/*////////////////////////stats page //////////////////////////////////////////*/
+
+/*///////////////////////map  //////////////////////////////////////////*/
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+/*///////////////////////stats//////////////////////////////////////////*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#myBtn {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  border: none;
+}
+
+#more {display: none;}
+
+#more p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.column {
+  float: left;
+  height: 400px;
+  color: black;
+  text-align: justify;
+  background-color: white;
+  font-size: 17px;
+}
+.column h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.column.side {
+  width: 20%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 80px;
+  padding: 10px;
+}
+
+.column.side img {
+  width: 265px;
+  height: 165px;
+  transition: transform 1.7s;
+  margin: 0 auto;
+}
+
+.column.side img:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.column.middle {
+  width: 30%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 80px;
+  padding: 10px;
+  height: 570px;
+}
+
+.column.middle img:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.column.middle iframe {
+  width: 400px;
+  height: 250px;
+}
+
+.column.middle img {
+  width: 400px;
+  height: 290px;
+  align-items: center;
+  transition: transform 1.7s;
+  margin: 0 auto;
+}
+
+///////////////////////*map*///////
+
+#nomargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#mapContainer {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#addlist {
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+#addlist li {
+  cursor: pointer;
+  margin: 8px 0px 8px 0px;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+li:hover {
+    background-color: #436EEE;
+}
