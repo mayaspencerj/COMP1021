@@ -89,9 +89,17 @@ function initMap() {
       coords:{lat:38,lng:-122},
       iconImage:'http://maps.google.com/mapfiles/kml/paddle/red-stars.png',
       title: "Black girls Code",
-      description: "When you become a part of Women Who Code you gain access to programs and services that are designed to help you step up your tech career. Gain access to coding tutorials, articles, videos, and other educational materials to excel",
+      description: " To increase the number of women of color in the digital space by empowering girls of color ages 7 to 17 to become innovators in STEM fields, leaders in their communities, and builders of their own futures through exposure to computer science and technology. To provide African-American youth with the skills to occupy some of the 1.4 million computing job openings expected to be available in the U.S. by 2020, and to train 1 million girls by 2040.",
       link: "http://www.blackgirlscode.com",
       image:"images/bgc.png"
+    },
+    {
+      coords:{lat:51.527292,lng: -0.055544},
+      iconImage:'http://maps.google.com/mapfiles/kml/paddle/red-stars.png',
+      title: "23 Code Street",
+      description: "We are on a mission to empower all women from all walks of life with the skills and confidence to be technical. We aim to give them the tools needed to build our futures.",
+      link: "https://www.23codestreet.com",
+      image:"images/23code.jpg"
     }
 
   ]
