@@ -84,6 +84,14 @@ function initMap() {
       description: "When you become a part of Women Who Code you gain access to programs and services that are designed to help you step up your tech career. Gain access to coding tutorials, articles, videos, and other educational materials to excel",
       link: "https://www.womenwhocode.com",
       image:"images/women_who_code.jpg"
+    },
+    {
+      coords:{lat:38,lng:-122},
+      iconImage:'http://maps.google.com/mapfiles/kml/paddle/red-stars.png',
+      title: "Black girls Code",
+      description: "When you become a part of Women Who Code you gain access to programs and services that are designed to help you step up your tech career. Gain access to coding tutorials, articles, videos, and other educational materials to excel",
+      link: "http://www.blackgirlscode.com",
+      image:"images/bgc.png"
     }
 
   ]
