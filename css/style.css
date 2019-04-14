@@ -4,6 +4,7 @@ body { padding-bottom: 70px; }
     background-color: pink;
 }
 
+
 video {
   height: 50%;
   width: 50%;
@@ -37,6 +38,22 @@ video {
 .halfheight{
     height: 50%;
 }
+
+.authorheader {
+    position: absolute;
+    text-align: center;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.author-link {
+    font-family: 'Special Elite', cursive;
+    color: white;
+
+}
+
 /*///////////////////////IMAGES////////////////////////////////////////*/
 .img1 {
     background-image: url('../images/ssandberg.jpg');
@@ -88,20 +105,8 @@ video {
 }
 
 
+
 /*//////////////////////////////////////////////////////////////////////*/
-.mobileheight {
-    position: relative;
-}
-
-.authorheader {
-    position: absolute;
-    text-align: center;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-
-}
 
 .navbar-brand {
     font-family: 'Special Elite', cursive;
@@ -111,7 +116,6 @@ video {
 /*////////////////////////stats page //////////////////////////////////////////*/
 
 /*///////////////////////map  //////////////////////////////////////////*/
-
 
 .map-container{
 overflow:hidden;

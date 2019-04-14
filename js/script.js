@@ -37,6 +37,7 @@ function access_mode(){
     $("img").hide();
     var options = document.getElementById("shown")
   }
+
 }
 
 
