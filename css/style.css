@@ -4,6 +4,11 @@ body { padding-bottom: 70px; }
     background-color: pink;
 }
 
+.frameVid {
+  width:600px;
+  height:400px;
+  frameborder=0;
+}
 
 video {
   height: 50%;
@@ -24,6 +29,12 @@ video {
   border-radius: 150px;
   width: 50%;
   height: auto;
+}
+
+.zoom {
+
+  height: auto;
+
 }
 
 /*/////////////////////////////////////////////////////////////////////////*/
@@ -221,7 +232,7 @@ position:absolute;
   margin: 0 auto;
 }
 
-///////////////////////*map*///////
+/*map*/
 
 #nomargin {
   margin-left: 0;
