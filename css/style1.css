@@ -1,0 +1,154 @@
+.navbar {
+    background-color: pink;
+}
+
+
+
+
+#responsive {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 150px;
+  width: 50%;
+  height: 50%;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+.text:hover {
+    opacity:1;
+}
+
+
+
+.fullpage {
+    background-color: grey;
+    height: 86vh;
+    width: 100vw;
+}
+
+
+.halfheight{
+    height: 50%;
+}
+/*///////////////////////IMAGES////////////////////////////////////////*/
+.img1 {
+    background-image: url('images/ssandberg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img2 {
+    background-image: url('images/alovelace.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img3 {
+    background-image: url('images/gtrap.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img4 {
+    background-image: url('images/kjones.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img5 {
+    background-image: url('images/grometty.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img6 {
+    background-image: url('images/agoldberg.png');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img7 {
+    background-image: url('images/eniac.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+.img8 {
+    background-image: url('images/ghopper.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+
+/*//////////////////////////////////////////////////////////////////////*/
+.mobileheight {
+    position: relative;
+}
+
+.authorheader {
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.navbar-brand {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+/*////////////////////////stats page //////////////////////////////////////////*/
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/*///////////////////////map  //////////////////////////////////////////*/
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
