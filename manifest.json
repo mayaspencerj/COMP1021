@@ -1,0 +1,26 @@
+CACHE MANIFEST
+css/style.css
+js/script.js
+index.html
+Contact-us.html
+models.html
+Pinky.html
+solutions_map.html
+solutions_table.html
+stats.html
+
+
+
+ NETWORK:
+ css/style.css
+
+
+
+
+ FALLBACK:
+/index.html
+
+
+
+
+
