@@ -7,7 +7,6 @@ body { padding-bottom: 70px; }
 .frameVid {
   width:600px;
   height:400px;
-  frameborder=0;
 }
 
 video {
@@ -209,8 +208,10 @@ position:absolute;
 }
 
 .column.side img:hover {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.column.middle img:hover {
   transform: scale(1.2);
 }
 
@@ -223,11 +224,7 @@ position:absolute;
   height: 570px;
 }
 
-.column.middle img:hover {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
+
 
 .column.middle iframe {
   width: 400px;

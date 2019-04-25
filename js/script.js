@@ -6,8 +6,6 @@ window.setInterval(function(){
 
 }, 2000);
 
-
-
 function myFunction() {
   var dots = document.getElementById("dots");
   var btnText = document.getElementById("myBtn");
@@ -26,7 +24,6 @@ function myFunction() {
   }
 }
 
-
 function access_mode(){
   var options = document.getElementById('shown').innerHTML;
   if (options == "Show Images") {
@@ -39,7 +36,6 @@ function access_mode(){
   }
 
 }
-
 
 var x = document.getElementById("import");
 function getLocation(){
@@ -56,7 +52,6 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 
 }
-
 
 function initMap() {
   // Map options
