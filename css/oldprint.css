@@ -1,0 +1,35 @@
+.wrapper::after {
+  content: "Please see my for the latest version of this information.";
+}
+
+p, h1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+  display: inline;
+}
+
+img, .navbar {
+  display: none;
+}
+
+article {
+   width:100%!important;
+   padding:0!important;
+   margin:0!important;
+ }
+.box {
+  display: none;
+}
+
+p {visibility: visible;}
+
+a {
+    page-break-inside:avoid
+}
+
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid;
+     page-break-inside:avoid }
+
+table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
