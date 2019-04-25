@@ -53,10 +53,10 @@ video {
 .authorheader {
     position: absolute;
     text-align: center;
-    top: 140%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+
 }
 
 .author-link {
