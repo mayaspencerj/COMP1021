@@ -2,7 +2,7 @@ CACHE MANIFEST
 css/style.css
 js/script.js
 index.html
-Contact-us.html
+
 models.html
 Pinky.html
 solutions_map.html
@@ -12,7 +12,7 @@ stats.html
 
 
  NETWORK:
- css/style.css
+Contact-us.html
 
 
 
